@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <head>
+    <title>Quotes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <section class="vh-100 bg-info" id="quoteSection">
+      <div class="container h-100 bg-body">
+        <div
+          class="h-100 text-center py-5 flex-column justify-content-center align-items-center"
+        >
+          <h1 class="fw-bold">Quote of the Day</h1>
+          <p>Press the button below to recieve a random quote!</p>
+          <button 
+          class="btn btn-info fs-3"
+           type="submit"
+           onclick="newQuote()"
+           >
+           New Quote
+          </button>
+          <div id="quote" class="text-center text-white mt-2 py-3 bg-info border rounded">
+         
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

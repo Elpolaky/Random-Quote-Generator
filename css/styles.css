@@ -1,0 +1,12 @@
+#quoteSection {
+    h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 6rem;
+    }
+    p,span{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        text-align: center;
+
+    }
+}
